@@ -35,6 +35,5 @@ def main(event, context):
         'group_id':group_id
     }
 
-    print(stamping_data)
     # 打刻処理
     request_session.post(stamping_url, data=stamping_data)
